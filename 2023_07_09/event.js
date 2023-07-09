@@ -1,9 +1,9 @@
-function myFunction(){
+function myFunction() {
     alert("Click");
 }
 
 
-function myClick(){
+function myClick() {
     alert("Click on Window");
 }
- window.onclick=myClick;
+window.onclick = myClick;
