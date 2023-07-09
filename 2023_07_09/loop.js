@@ -28,3 +28,12 @@ function foo(){
 
 
 foo();
+
+function add(n1,n2){
+    return n1+n2;
+}
+
+var ans=add(3,7);
+alert(ans);
+
+alert(add(56,4));
