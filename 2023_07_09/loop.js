@@ -17,3 +17,14 @@ var items=["foo","bar", "baz"];
 for(var i=0; i<items.length; i++){
     alert(items[i]);
 }
+
+// creating function
+
+function foo(){
+    alert("from function fooo");
+}
+
+///calling function
+
+
+foo();
