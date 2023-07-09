@@ -9,3 +9,7 @@ alert(bar+bar);
   alert(num+bar);
 
   alert(foo+bar);
+
+  alert(5=="5"); //true
+
+  alert(5==="5")//false
