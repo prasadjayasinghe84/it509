@@ -14,6 +14,6 @@ for(var i=1;i<=10;i++){
 ///accessing element from an arry
 
 var items=["foo","bar", "baz"];
-for(var i=0; i<items.length;i++){
+for(var i=0; i<items.length; i++){
     alert(items[i]);
 }
