@@ -1,6 +1,6 @@
 function double(num) {
 
-    // total=num+num;
+    // total=num+num; /// this will become goble without var key word
     var total = num + num;
     return total;
 }
