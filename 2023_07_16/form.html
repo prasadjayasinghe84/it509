@@ -58,7 +58,7 @@
             <fieldset>
                 <legend>Toppings <em>(Choose as many as you want)</em></legend>
                 <ul>
-                    <li><input type="checkbox" name="toppings[]" value="red sauce" checked>
+                    <li><input type="checkbox" name="toppings[]" id="option" value="red sauce" onclick="validateCheckBox()">
                         Red sauce</li>
                     <li><input type="checkbox" name="toppings[]" value="white sauce">
                         White sauce
@@ -115,6 +115,11 @@
         function validateEmail() {
             if (document.getElementById('form-email').value.toLowerCase().indexOf('@') == -1) {
                 alert("Invalied E- Mail")
+            }
+        }
+        function validateCheckBox() {
+            if (document.getElementById('option').checked== true) {
+                alert(document.getElementById('option').value)
             }
         }
     </script>
