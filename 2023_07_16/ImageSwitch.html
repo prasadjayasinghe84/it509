@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inamge Switch</title>
+</head>
+
+<body>
+    <img id="image" src="a.png" alt="">
+    <button onclick="switchImage()">Chamge Image</button>
+</body>
+<script>
+    function switchImage() {
+        
+       
+        if( document.getElementById("image").getAttribute('src')=="b.jpg"){
+            document.getElementById("image").setAttribute("src", "c.jpg");
+        }else if( document.getElementById("image").getAttribute('src')=="a.png"){
+            document.getElementById("image").setAttribute("src", "b.jpg");
+        }else{
+            document.getElementById("image").setAttribute("src", "a.png");
+        }
+    }
+</script>
+
+</html>
